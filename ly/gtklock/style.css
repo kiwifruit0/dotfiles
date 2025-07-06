@@ -1,0 +1,39 @@
+@define-color bg #3b4252;
+
+* {
+  all: unset;
+}
+
+window {
+	background-color: @bg;
+	font-family: "JetBrains Mono", monospace;
+	font-size: 18px;
+}
+
+#input-label {
+	font-size: 0;
+}
+
+#unlock-button {
+	all: unset;
+	border: none;
+	background: transparent;
+	color: transparent;
+	font-size: 0;
+}
+
+#input-field {
+	border-radius: 0;
+	background-color: @bg;
+	color: #ffffff;
+	padding: 15px 15px;
+	border: 1px solid #ffffff;
+	letter-spacing: 2px;
+}
+
+#user-icon {
+	min-height: 0;
+	margin: 0;
+	padding: 0;
+}
+
