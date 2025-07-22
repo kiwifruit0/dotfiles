@@ -29,8 +29,11 @@
     "wireplumber": {
         "align": 1,
         "format": "{volume} {icon}",
-        "format-icons": ["󰝟", "󰕿", "󰖀", "󰕾"],
-        "on-click": "pavucontrol"
+        "format-icons": ["󰕿", "󰖀", "󰕾"],
+        "format-muted": "󰝟", 
+        "on-click": "pavucontrol",
+        "reverse-scrolling": 1,
+        "smooth-scrolling-threshold": 0.5
     },
     "network": {
         "format": "{signalStrength} {icon}",
@@ -40,12 +43,14 @@
     "backlight": {
         "align": 1,
         "format": "{percent} {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
+        "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "reverse-scrolling": 1,
+        "smooth-scrolling-threshold": 1
     },
     "battery": {
         "format": "{capacity} {icon} ",
         "format-icons": ["", "", "", "", ""],
-        "format-charging": "{capacity} 󰂄 ",
+        "format-charging": "{capacity} 󰂄",
         "states": {
             "warning": 20,
             "critical": 10
