@@ -1,9 +1,6 @@
 # dotfiles
 
-These are my dotfiles and setup for arch linux with hyprland. There are a few manual installs as mentioned below
-
-## GTKLock
-Copy the .face image into $HOME
+These are my dotfiles and setup for arch linux with hyprland. They are structured to be managed with stow, but the manual installs are detailed below.
 
 ## ly
 Edit the file `/lib/systemd/system/ly.service` and add the following in the `[Service]` section:
